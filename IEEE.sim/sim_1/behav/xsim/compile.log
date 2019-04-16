@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KARAN/Downloads/block_mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KARAN/Downloads/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KARAN/Downloads/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KARAN/Downloads/normalize.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module normalize
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KARAN/Downloads/product.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module product
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KARAN/Downloads/ripple_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ripple_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KARAN/Downloads/row.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module row
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KARAN/Downloads/sign_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KARAN/Downloads/subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_subtractor_sub1
+INFO: [VRFC 10-311] analyzing module full_subtractor_sub0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KARAN/Downloads/subtractor_9_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KARAN/Downloads/tb_fp_mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stimulus

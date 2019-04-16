@@ -1,0 +1,16 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/KARAN/Desktop/IEEE/IEEE.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/KARAN/Downloads/block_mul.v,1555130138,verilog,,C:/Users/KARAN/Downloads/control.v,,block,,,,,,,,
+C:/Users/KARAN/Downloads/control.v,1555292744,verilog,,C:/Users/KARAN/Downloads/full_adder.v,,control,,,,,,,,
+C:/Users/KARAN/Downloads/full_adder.v,1555130200,verilog,,C:/Users/KARAN/Downloads/normalize.v,,full_adder,,,,,,,,
+C:/Users/KARAN/Downloads/normalize.v,1555130144,verilog,,C:/Users/KARAN/Downloads/product.v,,normalize,,,,,,,,
+C:/Users/KARAN/Downloads/product.v,1555130111,verilog,,C:/Users/KARAN/Downloads/ripple_8.v,,product,,,,,,,,
+C:/Users/KARAN/Downloads/ripple_8.v,1555130199,verilog,,C:/Users/KARAN/Downloads/row.v,,ripple_8,,,,,,,,
+C:/Users/KARAN/Downloads/row.v,1555130204,verilog,,C:/Users/KARAN/Downloads/sign_bit.v,,row,,,,,,,,
+C:/Users/KARAN/Downloads/sign_bit.v,1555130207,verilog,,C:/Users/KARAN/Downloads/subtractor.v,,sign_bit,,,,,,,,
+C:/Users/KARAN/Downloads/subtractor.v,1555130211,verilog,,C:/Users/KARAN/Downloads/subtractor_9_bit.v,,full_subtractor_sub0;full_subtractor_sub1,,,,,,,,
+C:/Users/KARAN/Downloads/subtractor_9_bit.v,1555130220,verilog,,C:/Users/KARAN/Downloads/tb_fp_mul.v,,subtractor_9,,,,,,,,
+C:/Users/KARAN/Downloads/tb_fp_mul.v,1555292481,verilog,,,,stimulus,,,,,,,,

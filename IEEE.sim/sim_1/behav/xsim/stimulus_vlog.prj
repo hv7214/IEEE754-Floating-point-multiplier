@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../Downloads/block_mul.v" \
+"../../../../../../Downloads/control.v" \
+"../../../../../../Downloads/full_adder.v" \
+"../../../../../../Downloads/normalize.v" \
+"../../../../../../Downloads/product.v" \
+"../../../../../../Downloads/ripple_8.v" \
+"../../../../../../Downloads/row.v" \
+"../../../../../../Downloads/sign_bit.v" \
+"../../../../../../Downloads/subtractor.v" \
+"../../../../../../Downloads/subtractor_9_bit.v" \
+"../../../../../../Downloads/tb_fp_mul.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

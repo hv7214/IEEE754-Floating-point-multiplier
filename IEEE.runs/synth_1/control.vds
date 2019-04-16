@@ -1,0 +1,398 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Apr 13 10:14:24 2019
+# Process ID: 12464
+# Current directory: C:/Users/KARAN/Desktop/IEEE/IEEE.runs/synth_1
+# Command line: vivado.exe -log control.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source control.tcl
+# Log file: C:/Users/KARAN/Desktop/IEEE/IEEE.runs/synth_1/control.vds
+# Journal file: C:/Users/KARAN/Desktop/IEEE/IEEE.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source control.tcl -notrace
+Command: synth_design -top control -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15144 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 364.445 ; gain = 101.477
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'control' [C:/Users/KARAN/Downloads/control.v:24]
+INFO: [Synth 8-6157] synthesizing module 'sign_bit' [C:/Users/KARAN/Downloads/sign_bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'sign_bit' (1#1) [C:/Users/KARAN/Downloads/sign_bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ripple_8' [C:/Users/KARAN/Downloads/ripple_8.v:23]
+INFO: [Synth 8-6157] synthesizing module 'full_adder' [C:/Users/KARAN/Downloads/full_adder.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder' (2#1) [C:/Users/KARAN/Downloads/full_adder.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'ripple_8' (3#1) [C:/Users/KARAN/Downloads/ripple_8.v:23]
+INFO: [Synth 8-6157] synthesizing module 'subtractor_9' [C:/Users/KARAN/Downloads/subtractor_9_bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'full_subtractor_sub1' [C:/Users/KARAN/Downloads/subtractor.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'full_subtractor_sub1' (4#1) [C:/Users/KARAN/Downloads/subtractor.v:24]
+INFO: [Synth 8-6157] synthesizing module 'full_subtractor_sub0' [C:/Users/KARAN/Downloads/subtractor.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'full_subtractor_sub0' (5#1) [C:/Users/KARAN/Downloads/subtractor.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'subtractor_9' (6#1) [C:/Users/KARAN/Downloads/subtractor_9_bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'product' [C:/Users/KARAN/Downloads/product.v:23]
+INFO: [Synth 8-6157] synthesizing module 'row' [C:/Users/KARAN/Downloads/row.v:23]
+INFO: [Synth 8-6157] synthesizing module 'block' [C:/Users/KARAN/Downloads/block_mul.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'block' (7#1) [C:/Users/KARAN/Downloads/block_mul.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'row' (8#1) [C:/Users/KARAN/Downloads/row.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'product' (9#1) [C:/Users/KARAN/Downloads/product.v:23]
+INFO: [Synth 8-6157] synthesizing module 'normalize' [C:/Users/KARAN/Downloads/normalize.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'normalize' (10#1) [C:/Users/KARAN/Downloads/normalize.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'control' (11#1) [C:/Users/KARAN/Downloads/control.v:24]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[22]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[21]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[20]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[19]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[18]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[17]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[16]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[15]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[14]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[13]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[12]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[11]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[10]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[9]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[8]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[7]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[6]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[5]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[4]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[3]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[2]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[1]
+WARNING: [Synth 8-3331] design normalize has unconnected port prdt[0]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[30]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[29]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[28]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[27]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[26]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[25]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[24]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[23]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[22]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[21]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[20]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[19]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[18]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[17]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[16]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[15]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[14]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[13]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[12]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[11]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[10]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[9]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[8]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[7]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[6]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[5]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[4]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[3]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[2]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[1]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in1[0]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[30]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[29]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[28]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[27]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[26]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[25]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[24]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[23]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[22]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[21]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[20]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[19]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[18]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[17]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[16]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[15]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[14]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[13]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[12]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[11]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[10]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[9]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[8]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[7]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[6]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[5]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[4]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[3]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[2]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[1]
+WARNING: [Synth 8-3331] design sign_bit has unconnected port in2[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 420.012 ; gain = 157.043
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 420.012 ; gain = 157.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 420.012 ; gain = 157.043
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/KARAN/Desktop/Basys-3-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led[17]'. [C:/Users/KARAN/Desktop/Basys-3-Master.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/KARAN/Desktop/Basys-3-Master.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/KARAN/Desktop/Basys-3-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/KARAN/Desktop/Basys-3-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/control_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/control_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 771.445 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 771.445 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 771.445 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 771.445 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 771.445 ; gain = 508.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 771.445 ; gain = 508.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 771.445 ; gain = 508.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 771.445 ; gain = 508.477
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 10    
+	   3 Input      1 Bit         XORs := 592   
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sign_bit 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module full_adder 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 1     
+Module full_subtractor_sub1 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module full_subtractor_sub0 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module normalize 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     23 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:05 ; elapsed = 00:01:09 . Memory (MB): peak = 1001.590 ; gain = 738.621
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:16 ; elapsed = 00:01:22 . Memory (MB): peak = 1001.590 ; gain = 738.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:16 ; elapsed = 00:01:22 . Memory (MB): peak = 1001.590 ; gain = 738.621
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:17 ; elapsed = 00:01:23 . Memory (MB): peak = 1001.590 ; gain = 738.621
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:19 ; elapsed = 00:01:25 . Memory (MB): peak = 1001.590 ; gain = 738.621
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:19 ; elapsed = 00:01:25 . Memory (MB): peak = 1001.590 ; gain = 738.621
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:19 ; elapsed = 00:01:25 . Memory (MB): peak = 1001.590 ; gain = 738.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:19 ; elapsed = 00:01:25 . Memory (MB): peak = 1001.590 ; gain = 738.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:19 ; elapsed = 00:01:25 . Memory (MB): peak = 1001.590 ; gain = 738.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:19 ; elapsed = 00:01:25 . Memory (MB): peak = 1001.590 ; gain = 738.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |   256|
+|2     |LUT3 |    26|
+|3     |LUT4 |   251|
+|4     |LUT5 |    74|
+|5     |LUT6 |   645|
+|6     |IBUF |    64|
+|7     |OBUF |    34|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  1350|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:19 ; elapsed = 00:01:25 . Memory (MB): peak = 1001.590 ; gain = 738.621
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:08 ; elapsed = 00:01:17 . Memory (MB): peak = 1001.590 ; gain = 387.188
+Synthesis Optimization Complete : Time (s): cpu = 00:01:19 ; elapsed = 00:01:25 . Memory (MB): peak = 1001.590 ; gain = 738.621
+INFO: [Project 1-571] Translating synthesized netlist
+WARNING: [Netlist 29-101] Netlist 'control' is not ideal for floorplanning, since the cellview 'control' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1001.590 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 87 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:22 ; elapsed = 00:01:31 . Memory (MB): peak = 1001.590 ; gain = 746.844
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1001.590 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/KARAN/Desktop/IEEE/IEEE.runs/synth_1/control.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file control_utilization_synth.rpt -pb control_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 13 10:16:01 2019...
